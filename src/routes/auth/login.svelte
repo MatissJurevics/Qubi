@@ -1,6 +1,7 @@
 <script>
     import { auth } from "../../firebase.js"
     import {signInWithPopup, GoogleAuthProvider } from "firebase/auth"
+    import {goto} from "$app/navigation"
 
     const signIn = () => {
         const provider = new GoogleAuthProvider()
@@ -13,6 +14,7 @@
     // The signed-in user info.
     const user = result.user;
     // ...
+    goto("/app")
   }).catch((error) => {
     // Handle Errors here.
     const errorCode = error.code;
