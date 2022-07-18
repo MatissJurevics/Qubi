@@ -31,14 +31,15 @@
   $: password = ""
 
 </script>
-
+<svelte:head>
+    <title>Anklone | Login</title>
+</svelte:head>
 <main class="h-screen w-screen flex flex-col justify-center items-center">
     <div class="min-w-[400px] min-h-[500px] bg-white/20 rounded-xl flex flex-col items-center">
-        <h1 class="text-3xl text-content font-bold my-4">Sign In</h1>
+        <h1 class="text-3xl text-content font-bold my-4">Login</h1>
         <div class="flex flex-col">
           <input type="email" name="email" bind:value={email} placeholder="johndoe@email.com" class="input input-ghost p-2 mb-3">
           <input type="password" name="password" bind:value={password} placeholder="Password" class="input input-ghost p-2 mb-3">
-          <input type="password" name="password" bind:value={password} placeholder="Repeat Password" class="input input-ghost p-2 mb-3">
 
           <button class="btn btn-primary" on:click={() => console.log(email,password)}>Login</button>
         </div>
@@ -46,5 +47,6 @@
         <div class="flex flex-row justify-center items-center w-full px-8 my-auto">
           <button class="btn btn-secondary" on:click={signIn}>Sign in with <span class="text-white ml-1">Google</span></button>
         </div>
+        <a href="/auth/signup">Sign up</a>
     </div>
 </main>

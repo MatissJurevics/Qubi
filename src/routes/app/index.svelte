@@ -1,6 +1,8 @@
 <script>
     import { page } from "$app/stores"
     import {goto} from "$app/navigation"
+    import { onAuthStateChanged } from "firebase/auth"
+    import {auth} from "../../firebase.js"
     const {url} = $page;
     $: name = ""
     $: imgurl = ""
@@ -28,4 +30,5 @@
    
     <h1>{name}</h1>
     <button class="btn btn-primary" on:click={signOut}>Sign out</button>
+    <a href="/app/test"> test</a>
 </main>
