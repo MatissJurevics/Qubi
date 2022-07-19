@@ -2,8 +2,8 @@
     <title>Anklone</title>
 </svelte:head>
 
-<main class="min-h-screen">
-  <section class="min-h-1/2 flex flex-col items-center bg-base-300 p-4">
+<main class="min-h-screen flex flex-col items-center">
+  <section class="min-h-1/2 w-full flex flex-col items-center bg-base-300 p-4">
     <h1 class="text-2xl font-bold text-center w-2/3 mt-4">A spaced repetition app that feels good to use!</h1>
     <h3 class="text-lg font-light text-center w-2/3 mt-4">Qubi is designed with frictionless learing and UI in mind so that you can learn faster.</h3>
     <div class="flex flex-row justify-between mt-4">
@@ -13,7 +13,7 @@
     </div>
   </section>
 
-  <div class="mockup-window border bg-base-300 mx-4 mt-8 flex flex-row">
+  <div class="mockup-window border bg-base-300 mx-4 mt-8 flex flex-row w-5/6 max-w-[500px]">
     <div class="flex justify-center px-4 py-16 bg-base-200 text-center font-lignt">What is the capital of Afganistan?</div>
   </div>
 
