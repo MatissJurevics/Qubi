@@ -5,15 +5,17 @@
     import {auth} from "../../firebase.js"
     const {url} = $page;
     $: name = ""
-    $: imgurl = ""
+    $: photoURL = ""
     onAuthStateChanged(auth, (user) => {
         if (!user) {
             return {}
         }
         else {
             // console.log(user)
+            // @ts-ignore
             name = user.email 
-            imgurl = user.photoURL
+            // @ts-ignore
+            photoURL = user.photoURL
         }
        
     })
