@@ -7,8 +7,8 @@
     <h1 class="text-2xl font-bold text-center w-2/3 mt-4">A spaced repetition app that feels good to use!</h1>
     <h3 class="text-lg font-light text-center w-2/3 mt-4">Qubi is designed with frictionless learing and UI in mind so that you can learn faster.</h3>
     <div class="flex flex-row justify-between mt-4">
-      <a href="/login" class="btn btn-primary mr-3">Login</a>
-      <a href="/login" class="btn btn-primary ml-3">Sign Up!</a>
+      <a href="/auth/login" class="btn btn-primary mr-3">Login</a>
+      <a href="/auth/signup" class="btn btn-primary ml-3">Sign Up!</a>
 
     </div>
   </section>
