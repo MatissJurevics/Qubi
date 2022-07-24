@@ -16,7 +16,7 @@
     
 </script>
 <svelte:head>
-    <title>Anklone</title>
+    <title>Qubi</title>
 </svelte:head>
 
 <slot />
