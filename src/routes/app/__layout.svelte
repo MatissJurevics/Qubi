@@ -18,5 +18,5 @@
 <svelte:head>
     <title>Qubi</title>
 </svelte:head>
-
 <slot />
+

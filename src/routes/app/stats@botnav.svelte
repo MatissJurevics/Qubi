@@ -1,4 +1,4 @@
 <main class="flex flex-col">
-    test
+    Statistics
     <a href="/app" class="btn btn-primary">app</a>
 </main>
