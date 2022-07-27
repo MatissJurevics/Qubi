@@ -27,7 +27,6 @@
     }
 </script>
 
-
 <main class="flex flex-col items-center justify-center h-screen">
    
     <h1>{name}</h1>
